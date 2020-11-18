@@ -113,7 +113,7 @@ function draw() {
 }
 
 function mouseDragged(){
-polygon.setPosition(moueseX,moueseY)
+Matter.Body.setPosition(polygon.body,mouseX,mouseY)
 }
 
 
